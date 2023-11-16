@@ -1,0 +1,90 @@
+header {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  padding: 10px 0 10px 0;
+}
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  width: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 5px;
+}
+.Title {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 45px;
+  gap: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main_board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.board_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.Key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.Key_block {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 45px;
+  height: 45px;
+}
+.Enter {
+  font-size: 10px;
+  font-weight: bold;
+}
+.back_icon {
+  width: 20px;
+  font-weight: bold;
+}
