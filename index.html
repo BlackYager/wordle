@@ -4,62 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wordle</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body>
     <header>
       <div class="bar">
-        <div class="list"><img src="bar.svg" alt="" /></div>
-        <div class="Title">Wordle</div>
+        <div class="list"><img src="SVG/bar.svg" alt="" /></div>
+        <div class="Title">
+          <div class="wordle">Wordle</div>
+          <div class="Timer">Time:</div>
+        </div>
         <div class="icons">
-          <img src="question.svg" alt="" />
-          <img src="chart.svg" alt="" />
-          <img src="wheel.svg" alt="" />
+          <img src="SVG/question.svg" alt="" />
+          <img src="SVG/chart.svg" alt="" />
+          <img src="SVG/wheel.svg" alt="" />
         </div>
       </div>
     </header>
     <main>
       <div class="main_board _0">
-        <div class="board_block" data-="01"></div>
-        <div class="board_block" data-="02"></div>
-        <div class="board_block" data-="03"></div>
-        <div class="board_block" data-="04"></div>
-        <div class="board_block" data-="05"></div>
+        <div class="board_block" data-index="01"></div>
+        <div class="board_block" data-index="02"></div>
+        <div class="board_block" data-index="03"></div>
+        <div class="board_block" data-index="04"></div>
+        <div class="board_block" data-index="05"></div>
       </div>
       <div class="main_board _1">
-        <div class="board_block" data-="06"></div>
-        <div class="board_block" data-="07"></div>
-        <div class="board_block" data-="08"></div>
-        <div class="board_block" data-="09"></div>
-        <div class="board_block" data-="10"></div>
+        <div class="board_block" data-index="11"></div>
+        <div class="board_block" data-index="12"></div>
+        <div class="board_block" data-index="13"></div>
+        <div class="board_block" data-index="14"></div>
+        <div class="board_block" data-index="15"></div>
       </div>
       <div class="main_board _2">
-        <div class="board_block" data-="11"></div>
-        <div class="board_block" data-="12"></div>
-        <div class="board_block" data-="13"></div>
-        <div class="board_block" data-="14"></div>
-        <div class="board_block" data-="15"></div>
+        <div class="board_block" data-index="21"></div>
+        <div class="board_block" data-index="22"></div>
+        <div class="board_block" data-index="23"></div>
+        <div class="board_block" data-index="24"></div>
+        <div class="board_block" data-index="25"></div>
       </div>
       <div class="main_board _3">
-        <div class="board_block" data-="16"></div>
-        <div class="board_block" data-="17"></div>
-        <div class="board_block" data-="18"></div>
-        <div class="board_block" data-="19"></div>
-        <div class="board_block" data-="20"></div>
+        <div class="board_block" data-index="31"></div>
+        <div class="board_block" data-index="32"></div>
+        <div class="board_block" data-index="33"></div>
+        <div class="board_block" data-index="34"></div>
+        <div class="board_block" data-index="35"></div>
       </div>
       <div class="main_board _4">
-        <div class="board_block" data-="21"></div>
-        <div class="board_block" data-="22"></div>
-        <div class="board_block" data-="23"></div>
-        <div class="board_block" data-="24"></div>
-        <div class="board_block" data-="25"></div>
+        <div class="board_block" data-index="41"></div>
+        <div class="board_block" data-index="42"></div>
+        <div class="board_block" data-index="43"></div>
+        <div class="board_block" data-index="44"></div>
+        <div class="board_block" data-index="45"></div>
       </div>
       <div class="main_board _5">
-        <div class="board_block" data-="26"></div>
-        <div class="board_block" data-="27"></div>
-        <div class="board_block" data-="28"></div>
-        <div class="board_block" data-="29"></div>
-        <div class="board_block" data-="30"></div>
+        <div class="board_block" data-index="51"></div>
+        <div class="board_block" data-index="52"></div>
+        <div class="board_block" data-index="53"></div>
+        <div class="board_block" data-index="54"></div>
+        <div class="board_block" data-index="55"></div>
       </div>
     </main>
     <footer>
@@ -98,9 +101,10 @@
         <div class="Key_block" data-key="N">N</div>
         <div class="Key_block" data-key="M">M</div>
         <div class="Key_block" data-key="BackSpace">
-          <div class="back_icon"><img src="back.svg" alt="" /></div>
+          <div class="back_icon"><img src="SVG/back.svg" alt="" /></div>
         </div>
       </div>
     </footer>
+    <script src="JS/index.js"></script>
   </body>
 </html>

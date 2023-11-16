@@ -18,11 +18,18 @@ header {
   margin-left: 5px;
 }
 .Title {
-  font-size: 25px;
-  font-weight: bold;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.wordle {
+  font-size: 25px;
+  font-weight: bold;
+}
+.Timer {
+  font-size: 15px;
+  font-weight: bold;
 }
 .icons {
   width: 20px;
@@ -46,6 +53,8 @@ main {
   gap: 5px;
 }
 .board_block {
+  font-size: 30px;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,6 +88,7 @@ footer {
   border-radius: 15px;
   width: 45px;
   height: 45px;
+  background-color: gray;
 }
 .Enter {
   font-size: 10px;
